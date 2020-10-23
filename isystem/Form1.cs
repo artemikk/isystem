@@ -38,29 +38,8 @@ namespace isystem
             this.предметыTableAdapter.Fill(this.databaseDataSet.Предметы);
             // TODO: данная строка кода позволяет загрузить данные в таблицу "databaseDataSet.Кураторы". При необходимости она может быть перемещена или удалена.
             this.кураторыTableAdapter.Fill(this.databaseDataSet.Кураторы);
-            // TODO: данная строка кода позволяет загрузить данные в таблицу "databaseDataSet.Студенты". При необходимости она может быть перемещена или удалена.
             this.студентыTableAdapter.Fill(this.databaseDataSet.Студенты);
             // TODO: данная строка кода позволяет загрузить данные в таблицу "databaseDataSet.Кураторы". При необходимости она может быть перемещена или удалена.
-
-        }
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
 
         }
     }
